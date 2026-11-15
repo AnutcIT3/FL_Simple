@@ -1,0 +1,101 @@
+thi_nghiem,cau_hinh,seed,accuracy_cuoi
+E0,central GD,0,0.9289
+E0,FedSGD IID,0,0.9289
+E1,"hoc tap trung (SGD, moc tran)",0,0.9667
+E1,FedSGD,0,0.9289
+E1,FedAvg,0,0.9444
+E2,fedsgd (IID),0,0.9289
+E2,fedavg (IID),0,0.9444
+E2,fedsgd (alpha=1.0),0,0.9289
+E2,fedavg (alpha=1.0),0,0.9444
+E2,fedsgd (alpha=0.5),0,0.9289
+E2,fedavg (alpha=0.5),0,0.9489
+E2,fedsgd (alpha=0.1),0,0.9289
+E2,fedavg (alpha=0.1),0,0.9467
+E3,"f=0, trung bình",0,0.9289
+E3,"f=1, trung bình",0,0.4044
+E3,"f=2, trung bình",0,0.0844
+E3,"f=1, trimmed k=1",0,0.9178
+E3,"f=2, trimmed k=1 (cắt thiếu)",0,0.0844
+E3,"f=2, trimmed k=2",0,0.9044
+E3,"f=0, trimmed k=2 (không bị tấn công)",0,0.9267
+E0,central GD,1,0.9378
+E0,FedSGD IID,1,0.9378
+E1,"hoc tap trung (SGD, moc tran)",1,0.9689
+E1,FedSGD,1,0.9378
+E1,FedAvg,1,0.9533
+E2,fedsgd (IID),1,0.9378
+E2,fedavg (IID),1,0.9533
+E2,fedsgd (alpha=1.0),1,0.9378
+E2,fedavg (alpha=1.0),1,0.9533
+E2,fedsgd (alpha=0.5),1,0.9378
+E2,fedavg (alpha=0.5),1,0.9622
+E2,fedsgd (alpha=0.1),1,0.9378
+E2,fedavg (alpha=0.1),1,0.9533
+E3,"f=0, trung bình",1,0.9378
+E3,"f=1, trung bình",1,0.3156
+E3,"f=2, trung bình",1,0.1044
+E3,"f=1, trimmed k=1",1,0.9356
+E3,"f=2, trimmed k=1 (cắt thiếu)",1,0.1044
+E3,"f=2, trimmed k=2",1,0.9289
+E3,"f=0, trimmed k=2 (không bị tấn công)",1,0.9333
+E0,central GD,2,0.9022
+E0,FedSGD IID,2,0.9022
+E1,"hoc tap trung (SGD, moc tran)",2,0.9333
+E1,FedSGD,2,0.9022
+E1,FedAvg,2,0.9089
+E2,fedsgd (IID),2,0.9022
+E2,fedavg (IID),2,0.9089
+E2,fedsgd (alpha=1.0),2,0.9022
+E2,fedavg (alpha=1.0),2,0.9178
+E2,fedsgd (alpha=0.5),2,0.9022
+E2,fedavg (alpha=0.5),2,0.9178
+E2,fedsgd (alpha=0.1),2,0.9022
+E2,fedavg (alpha=0.1),2,0.9133
+E3,"f=0, trung bình",2,0.9022
+E3,"f=1, trung bình",2,0.3889
+E3,"f=2, trung bình",2,0.0956
+E3,"f=1, trimmed k=1",2,0.8889
+E3,"f=2, trimmed k=1 (cắt thiếu)",2,0.0956
+E3,"f=2, trimmed k=2",2,0.8844
+E3,"f=0, trimmed k=2 (không bị tấn công)",2,0.9
+E0,central GD,3,0.9333
+E0,FedSGD IID,3,0.9333
+E1,"hoc tap trung (SGD, moc tran)",3,0.9578
+E1,FedSGD,3,0.9333
+E1,FedAvg,3,0.9489
+E2,fedsgd (IID),3,0.9333
+E2,fedavg (IID),3,0.9489
+E2,fedsgd (alpha=1.0),3,0.9333
+E2,fedavg (alpha=1.0),3,0.9489
+E2,fedsgd (alpha=0.5),3,0.9333
+E2,fedavg (alpha=0.5),3,0.9489
+E2,fedsgd (alpha=0.1),3,0.9333
+E2,fedavg (alpha=0.1),3,0.9356
+E3,"f=0, trung bình",3,0.9333
+E3,"f=1, trung bình",3,0.34
+E3,"f=2, trung bình",3,0.1067
+E3,"f=1, trimmed k=1",3,0.9289
+E3,"f=2, trimmed k=1 (cắt thiếu)",3,0.1067
+E3,"f=2, trimmed k=2",3,0.9133
+E3,"f=0, trimmed k=2 (không bị tấn công)",3,0.9378
+E0,central GD,4,0.9378
+E0,FedSGD IID,4,0.9378
+E1,"hoc tap trung (SGD, moc tran)",4,0.9733
+E1,FedSGD,4,0.9378
+E1,FedAvg,4,0.9556
+E2,fedsgd (IID),4,0.9378
+E2,fedavg (IID),4,0.9556
+E2,fedsgd (alpha=1.0),4,0.9378
+E2,fedavg (alpha=1.0),4,0.9533
+E2,fedsgd (alpha=0.5),4,0.9378
+E2,fedavg (alpha=0.5),4,0.96
+E2,fedsgd (alpha=0.1),4,0.9378
+E2,fedavg (alpha=0.1),4,0.9467
+E3,"f=0, trung bình",4,0.9378
+E3,"f=1, trung bình",4,0.38
+E3,"f=2, trung bình",4,0.1089
+E3,"f=1, trimmed k=1",4,0.9311
+E3,"f=2, trimmed k=1 (cắt thiếu)",4,0.1089
+E3,"f=2, trimmed k=2",4,0.92
+E3,"f=0, trimmed k=2 (không bị tấn công)",4,0.9378

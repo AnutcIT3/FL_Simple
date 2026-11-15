@@ -1,0 +1,17 @@
+﻿seed,check,value,passed
+0,FedSGD(IID) == central GD,1.3183898417423734e-16,True
+0,FedSGD(alpha=0.1) == central GD,2.42861286636753e-16,True
+0,"aggregate[equal_mean](u,...,u) == u",8.881784197001252e-16,True
+0,"aggregate[trimmed](u,...,u) == u",2.220446049250313e-16,True
+0,"aggregate[median](u,...,u) == u",0.0,True
+0,"aggregate[krum](u,...,u) == u",0.0,True
+0,"aggregate[normclip](u,...,u) == u",1.3011813848606835e-13,True
+0,"aggregate[weighted_mean](u,...,u) == u",4.440892098500626e-16,True
+1,FedSGD(IID) == central GD,1.1275702593849246e-16,True
+1,FedSGD(alpha=0.1) == central GD,3.3306690738754696e-16,True
+1,"aggregate[equal_mean](u,...,u) == u",4.440892098500626e-16,True
+1,"aggregate[trimmed](u,...,u) == u",4.440892098500626e-16,True
+1,"aggregate[median](u,...,u) == u",0.0,True
+1,"aggregate[krum](u,...,u) == u",0.0,True
+1,"aggregate[normclip](u,...,u) == u",1.1857181902996672e-13,True
+1,"aggregate[weighted_mean](u,...,u) == u",2.220446049250313e-16,True

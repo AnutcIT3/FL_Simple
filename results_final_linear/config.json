@@ -1,0 +1,93 @@
+{
+  "rounds": 100,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_clients": 7,
+  "model": "linear",
+  "hidden": 32,
+  "local_epochs": 2,
+  "batch_size": 32,
+  "local_lr": 0.1,
+  "fedsgd_lr": 0.5,
+  "server_lr": 1.0,
+  "f_attack": 2,
+  "f_assumed": 2,
+  "attack_strength": 5.0,
+  "dp_clip": 0.5,
+  "dp_sigmas": [
+    0.0,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "partial_frac": 0.42857142857142855,
+  "drift_epochs": [
+    1,
+    5,
+    20
+  ],
+  "only": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+  ],
+  "out": "results_final_linear",
+  "workers": 5,
+  "tuning": {
+    "FedAvg": [
+      {
+        "local_lr": 0.05
+      },
+      {
+        "local_lr": 0.1
+      },
+      {
+        "local_lr": 0.3
+      }
+    ],
+    "FedProx": [
+      {
+        "mu": 0.01
+      },
+      {
+        "mu": 0.1
+      },
+      {
+        "mu": 1.0
+      }
+    ],
+    "SCAFFOLD": [
+      {
+        "local_lr": 0.05
+      },
+      {
+        "local_lr": 0.1
+      },
+      {
+        "local_lr": 0.3
+      }
+    ],
+    "FedAvgM": [
+      {
+        "server_lr": 0.3
+      },
+      {
+        "server_lr": 0.5
+      },
+      {
+        "server_lr": 1.0
+      }
+    ]
+  },
+  "numpy": "2.4.4",
+  "sklearn": "1.9.1",
+  "n_params": 650
+}
