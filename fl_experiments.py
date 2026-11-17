@@ -186,7 +186,7 @@ def main():
             log("E3", name, seed, run_fl(data, iid, "fedsgd", f=f, agg=agg, k=k, rng=rng)[-1])
 
     # ---- Ghi CSV va bang tom tat ----
-    with open(os.path.join(OUT, "results.csv"), "w", newline="") as fh:
+    with open(os.path.join(OUT, "results.csv"), "w", newline="", encoding="utf-8-sig") as fh:
         wr = csv.writer(fh)
         wr.writerow(["thi_nghiem", "cau_hinh", "seed", "accuracy_cuoi"])
         wr.writerows(rows)
@@ -201,7 +201,7 @@ def main():
                 lines.append(f"| {s} | {ms(v)} |")
         lines.append("")
     summary = "\n".join(lines)
-    with open(os.path.join(OUT, "summary.md"), "w") as fh:
+    with open(os.path.join(OUT, "summary.md"), "w", encoding="utf-8") as fh:
         fh.write(summary)
     print(summary)
 
